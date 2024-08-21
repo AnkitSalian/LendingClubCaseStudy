@@ -109,50 +109,71 @@ In other words, the company wants to understand the driving factors (or driver v
 - Interest Rate
     - Term
         - Loans with a 36-month term generally have lower interest rates than those with a 60-month term. "Charged Off" loans tend to have slightly higher interest rates compared to "Fully Paid" and "Current" loans across both terms, suggesting a potential relationship between higher interest rates and loan default risk.
+        > Risky to give loans at higher interest rates, particularly for 60-month terms, as these are associated with higher chances of default.
     - Grade
         - Lower-grade loans (e.g., D, E, F, G) generally have higher interest rates than higher-grade loans (e.g., A, B, C). "Charged Off" loans tend to have slightly higher interest rates across most grades, indicating a possible correlation between higher interest rates and the likelihood of default. The spread of interest rates increases with lower grades, indicating greater variability in rates for riskier loans
+        > Risky to approve lower-grade loans with high interest rates, as these are more likely to result in defaults due to greater variability in rates.
     - Employee Experience
         - Interest rates tend to be consistent across different employee experience, with no significant variation based on the duration of employment. "Charged Off" loans have slightly higher interest rates across most employment lengths, suggesting a correlation between higher interest rates and loan default risk. The spread of interest rates is similar across all employment lengths, indicating that employment length does not significantly impact interest rate variability.
+        > While employment length doesn't significantly impact risk, loans with higher interest rates remain riskier, regardless of employment duration.
     - Home Ownership
         - Interest rates remain consistent across different home ownership types, with no significant variation based on the type of home. "Charged Off" loans generally have slightly higher interest rates across all home ownership categories, indicating a potential link between higher interest rates and loan default risk. The variation in interest rates is similar across all home ownership types, suggesting that home ownership does not notably influence interest rate differences.
+        > Risky to issue loans with higher interest rates across all home ownership categories, as higher rates are linked to a greater likelihood of default.
     - Verification Status
         - Verification status significantly impacts loan status. Verified loans have a higher proportion of fully paid loans and lower charged-off rates compared to source verified and not verified loans. This suggests a strong correlation between loan verification and repayment behavior. Interest rates also vary across verification statuses, with verified loans generally having lower interest rates
+        > Less risky to give loans to verified individuals with lower interest rates, as verification improves repayment behavior.
     - Purpose
         - Interest rates vary slightly across different loan purposes. Car loans generally have the lowest interest rates, while home loans tend to have higher interest rates. "Charged Off" loans generally have slightly higher interest rates across all purposes, indicating a potential link between higher interest rates and loan default risk. The variation in interest rates is significant across different purposes, suggesting that purpose does influence interest rate differences.
+        > Risky to approve loans for purposes with higher interest rates, as these are more likely to default, particularly for purposes like home improvement or small business.
     - Annual Income Range
         - As annual income increases, interest rates tend to rise, except within the 1M-6M income range. "Charged Off" loans generally carry slightly higher interest rates across all income ranges, suggesting a potential connection between higher interest rates and loan default risk. The variability in interest rates increases with higher annual incomes, indicating greater fluctuation in rates for riskier loans.
+        > Risky to approve loans with higher interest rates across all income ranges, as higher rates are linked to default risk, especially for lower income ranges.
     
 - Debt to Income Ratio
     - Term
         - Loans with a 36-month term generally have lower Debt-to-Income (DTI) ratio than those with a 60-month term. "Charged Off" loans tend to have slightly higher debt to income ratio compared to "Fully Paid" and "Current" loans across both terms, suggesting a potential relationship between debt to income ratio and loan default risk.
+        > Risky to approve loans with higher DTI ratios, especially for 60-month terms, as these are associated with higher default risks.
     - Grade
         - DTI ratio distribution is similar across different loan grades for fully paid, charged-off, and current loans. However, lower grades (E, F, G) tend to have a slightly wider DTI range, particularly for charged-off loans, indicating higher variability in DTI for riskier loan grades. This suggests that borrowers with lower grades might have a higher risk of default.
+        > Risky to approve lower-grade loans with higher DTI ratios, as these loans show greater variability and a higher likelihood of default.
     - Employee Experience
         - DTI ratio distribution is fairly consistent across different employment lengths for fully paid, charged-off, and current loans. There is no clear trend showing that longer or shorter employment length significantly affects the DTI ratio or the likelihood of loan status outcomes. This suggests that employment length may not be a strong predictor of loan performance when segmented by DTI ratio.
+        > Employment experience does not strongly influence DTI risk, but loans with higher DTI ratios remain risky.
     - Home Ownership
         - Individuals who rent or have a mortgage exhibit a wider range of DTI ratios, especially among those who are fully paid or charged off. Borrowers who own their homes or have no listed ownership type generally show more concentrated DTI distributions. This indicates that home ownership status, particularly renting or mortgaging, may contribute to higher variability in DTI ratios and potential risk in loan outcomes.
+        > Risky to approve loans for renters or those with mortgages with higher DTI ratios, as these groups exhibit more variability and higher default risks.
     - Verification Status
         - Verification status significantly impacts loan status and DTI distribution. Verified loans have the highest proportion of fully paid loans and the higher DTI levels, while not verified loans have the highest charge-off rates and the lowest DTI ratios. This suggests a strong correlation between verification status, DTI, and loan repayment behavior.
+        > Less risky to approve verified loans with higher DTI ratios, as verification improves repayment behavior, but risky to approve non-verified loans.
     - Purpose
         - For most purposes, loans with a higher DTI ratio are more likely to be charged off or remain current, rather than being fully paid. Debt consolidation and small business loans have a wider DTI range, suggesting higher risk variability.
+        > Risky to approve loans with higher DTI ratios for these purposes, as they show a higher likelihood of default.
     - Annual Income Range
         - The relationship between income category and loan status, segmented by DTI ratio, appears to be moderately strong. Higher income categories show a clear trend of lower DTIs and more fully paid loans, while lower-income categories tend to have higher DTIs and a higher proportion of charged-off loans.
+        > Risky to approve loans with higher DTIs, particularly for lower income brackets, as these are more likely to default.
     
 - Loan Amount
     - Term
         - Loans with a 60-month term generally have higher loan amounts compared to those with a 36-month term. "Charged Off" loans are more common at higher loan amounts, especially in the 60-month term, indicating a potential link between larger loan amounts and increased default risk.
+        > Risky to approve larger loan amounts for 60-month terms, as these are linked to higher default risks.
     - Grade
         - Lower-grade loans (e.g., D, E, F, G) generally involve larger loan amounts compared to higher-grade loans (e.g., A, B, C). "Charged Off" loans are more common in the lower grades (E, F, G), and "Current" loans tend to involve larger amounts, especially in lower grades. The variability in loan amounts is greater for lower-grade loans, indicating higher risk and diversity in borrowing behavior.
+        > Risky to approve larger loan amounts for lower-grade loans, as these show a higher likelihood of default.
     - Employee Experience
         - Loan amounts tend to be consistent across different employment lengths, with no significant variation based on the duration of employment. "Charged Off" loans appear in similar proportions across all employment lengths, suggesting that the risk of default is not strongly influenced by employment length. The spread of loan amounts is also similar across all employment lengths, indicating that employment length does not significantly impact the variability in loan amounts.
+        > Employment experience does not strongly influence loan amount risk, but larger loan amounts remain risky.
     - Home Ownership
         - Loan amounts vary based on home ownership type, with those owning or having a mortgage generally taking larger loans. "Charged Off" loans appear consistently across all home ownership categories, indicating that home ownership does not significantly impact the likelihood of default. The spread of loan amounts is relatively consistent across categories, suggesting that home ownership type does not greatly influence the variability in loan amounts.
+        > Risky to approve larger loan amounts for those with a mortgage or ownership, as larger loans correlate with higher default risks.
     - Verification Status
         - Verification status impacts loan amount, but not uniformly. While verified loans show a higher proportion of fully paid loans, they also have a greater proportion of charged-off loans compared to source verified and not verified loans. This suggests that verification alone may not fully predict repayment behavior, and other factors might influence the likelihood of loan default.
+        > Less risky to approve verified loans, but caution is needed with larger amounts, as they may still result in defaults.
     - Purpose
         - For most loan purposes, "Charged Off" loans exhibit a larger spread in loan amounts compared to "Fully Paid" loans, indicating higher variability and risk associated with default. The exception is the "Moving" purpose, where "Charged Off" loans have a smaller spread than "Fully Paid" loans, suggesting more consistent outcomes for this purpose. This relationship suggests that higher variability in loan amounts may correlate with an increased likelihood of loans being charged off.
+        > Risky to approve larger loan amounts for purposes like debt consolidation, as higher variability correlates with increased default likelihood.
     - Annual Income Range
         - As annual income increases, loan amounts generally rise, except within the 1M-6M income range, where loan amounts remain consistent. "Charged Off" loans show a similar distribution across income categories, indicating that higher incomes do not necessarily reduce the risk of default. The variability in loan amounts increases with higher annual incomes, suggesting that larger loans come with greater risk and fluctuation in repayment outcomes.
+        > Risky to approve larger loan amounts, even for higher income categories, as larger loans come with greater risk and variability in repayment outcomes.
   
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
